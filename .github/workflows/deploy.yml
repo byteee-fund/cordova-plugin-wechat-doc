@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-       - name: npm install
+      - name: npm install
         run: npm install
       # 运行构建脚本
       - name: Build VuePress site
