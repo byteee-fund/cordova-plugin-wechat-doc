@@ -8,7 +8,7 @@
 
 - 如果需要支付功能，还需要申请[微信商户](https://pay.weixin.qq.com)；
 - 准备好的你项目（基于cordova）
-- 购买插件代码并下载解压到本地；
+- [购买插件](https://byteee.fund/project/cordova-plugin-wechat)代码并下载解压到本地；
 
 
 
