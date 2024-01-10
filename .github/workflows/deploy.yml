@@ -20,7 +20,7 @@ jobs:
         run: npm run docs:build
       # 部署到阿里云
       - name: Deploy to Aliyun
-        uses: easingthemes/ssh-deploy@v2.1.1
+        uses: easingthemes/ssh-deploy@main
         env:
           # 私钥
           SSH_PRIVATE_KEY: ${{ secrets.BSF_SERVER_SECRET }}
