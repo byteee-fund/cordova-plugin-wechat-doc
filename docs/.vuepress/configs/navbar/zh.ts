@@ -17,6 +17,7 @@ export const navbarZh: NavbarConfig = [
       '/api/login.md',
       '/api/login-scan.md',
       '/api/request-payment.md',
+      '/api/share.md',
       '/api/share-text.md',
       '/api/share-image.md',
       '/api/share-video.md',
@@ -26,10 +27,15 @@ export const navbarZh: NavbarConfig = [
       '/api/share-miniprogram.md',
       '/api/share-file.md',
       '/api/share-emotion.md',
+      '/api/launch-wechat-app.md',
       '/api/launch-miniprogram.md',
       '/api/open-customer-service-chat.md',
       '/api/request-subscribe-message.md',
       '/api/choose-invoice-card.md',
+      '/api/get-sdk-version.md',
+      '/api/start-log.md',
+      '/api/stop-log.md',
+      '/api/check-universal-link.md',
     ],
   },
   {
@@ -38,6 +44,6 @@ export const navbarZh: NavbarConfig = [
   },
   {
     text: 'Github',
-    link: 'https://github.com/byteee-fund/cordova-plugin-wechat',
+    link: 'https://github.com/byteee-fund/cordova-plugin-wechat-doc',
   },
 ]

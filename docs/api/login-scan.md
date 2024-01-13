@@ -1,4 +1,4 @@
-# 扫码登录
+# 扫码登录(auth)
 
 
 
@@ -27,7 +27,7 @@
 ##  示例
 
 ```javascript
-window.Wechat.loginByScan({
+window.Wechat.auth({
   scope: "snsapi_userinfo", 
   nonceStr: "wechat_sdk_demo_test",
   timeStamp: "1111111111",

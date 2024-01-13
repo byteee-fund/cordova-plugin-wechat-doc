@@ -1,8 +1,8 @@
-# 一次性订阅消息
+# 一次性订阅消息(requestSubscribeMessage)
 
 跳转微信获取一次性订阅消息
 
-## 
+
 
 
 

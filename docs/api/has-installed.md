@@ -1,4 +1,4 @@
-# 是否安装
+# 是否安装(isWXAppInstalled)
 
 判断微信客户端是否有安装
 
@@ -19,7 +19,7 @@
 ## 示例
 
 ```javascript
-window.Wechat.hasWechatInstall(
+window.Wechat.isWXAppInstalled(
     function(res) {
         console.log('wechat installed result:', res);
     },

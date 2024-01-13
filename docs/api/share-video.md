@@ -1,4 +1,4 @@
-# 分享视频
+# 分享视频(shareVideo)
 
 
 
@@ -8,10 +8,10 @@
 | --------------- | ------ | ------ | ---- | ------------------------------------------------------------ |
 | videoUrl        | string | -      | 是   | 视频链接 url， 限制长度不超过 10KB                           |
 | videoLowBandUrl | string | -      | 否   | 供低带宽的环境下使用的视频链接，限制长度不超过 10KB          |
-| title           | string | -      | 是   | 视频标题                                                     |
-| description     | string | -      | 是   | 视频描述                                                     |
+| title           | string | -      | 否   | 视频标题                                                     |
+| description     | string | -      | 否   | 视频描述                                                     |
 | thumbPath       | string | -      | 是   | 分享缩略图，支持网络图片链接，Base64字符串，Assets资源文件，系统文件路径 |
-| scene           | number | -      | 是   | 发送的目标场景,0=分享到会话,1=分享到朋友圈，2=分享到收藏     |
+| scene           | number | -      | 否   | 发送的目标场景,0=分享到会话,1=分享到朋友圈，2=分享到收藏     |
 
 > 注意：videoUrl 和 videoLowBandUrl 不能同时为空
 
