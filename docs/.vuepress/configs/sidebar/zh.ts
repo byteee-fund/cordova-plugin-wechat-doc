@@ -10,6 +10,7 @@ export const sidebarZh: SidebarConfig = {
         'errcode.md',
         'troubleshooting.md',
         'changelog.md',
+        'thanks.md',
       ],
     },
   ],
