@@ -39,7 +39,7 @@ export const navbarZh: NavbarConfig = [
     ],
   },
   {
-    text: '捐赠',
+    text: '赞助',
     link: 'https://byteee.fund/project/cordova-plugin-wechat',
   },
   {

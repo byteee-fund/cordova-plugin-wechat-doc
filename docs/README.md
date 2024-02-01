@@ -4,9 +4,9 @@
 
 
 
-- [主页](https://byteee.fund/cordova-plugin-wechat)
+- [主页](https://byteee.fund/project/cordova-plugin-wechat)
 
-- [文档](https://byteee.fund/cordova-plugin-wechat/)
+- [文档](https://byteee.fund/doc/cordova-plugin-wechat/)
 
 - [DEMO](https://github.com/byteee-fund/cordova-plugin-wechat-demo)
 

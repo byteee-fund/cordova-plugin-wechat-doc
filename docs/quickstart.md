@@ -85,3 +85,32 @@ const config: CapacitorConfig = {
 2、在Xcode中，选择你的工程设置项，选中“TARGETS”一栏，在“info”标签栏的“LSApplicationQueriesSchemes”添加weixin、weixinULAPI、weixinURLParamsAPI（如下图所示）。
 
 ![img](https://res.wx.qq.com/op_res/UA9NqONywI8DFeIMFMdND1tBAozE7hWe0fnrY88k68I0Rqq6Q60XCm2ZG9I7PfuzQIqbdsHIdVDiMjRPafZTig)
+
+3、原来的method swizzling在capactiro中无法监听回调，需要通过Bridging Header代码进行调用, 在APP targes 的 “Build Settings"里找到 "Objective-C Bridging Header", 输入
+
+```
+../../capacitor-cordova-ios-plugins/sources/CorodvaPluginWechat/Wechat-Bridging-Header.h
+```
+
+
+
+![img](./images/xcode3.png)
+
+
+
+4、修改AppDelegate.swift
+
+```swift
+func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
+        
+        // 添加微信插件回调
+        WechatAttribution.shared().continue(userActivity)
+        return ApplicationDelegateProxy.shared.application(application, continue: userActivity, restorationHandler: restorationHandler)
+    }
+```
+
+
+
+
+
+ 
