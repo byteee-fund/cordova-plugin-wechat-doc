@@ -49,19 +49,16 @@ const config: CapacitorConfig = {
 ../../capacitor-cordova-ios-plugins/sources/CordovaPluginWechat/Wechat-Bridging-Header.h
 ```
 
-
-
-![img](../../../cordova-plugin-wechat-doc-old/docs/images/xcode3.png)
-
+![img](../../../cordova-plugin-wechat-doc-old/docs/images/xcode-2.png)
 
 
 4、修改AppDelegate.swift
 
+添加如下代码：
+
 ```swift
-func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
-        
-        // 添加微信插件回调
-        WechatAttribution.shared().continue(userActivity)
-        return ApplicationDelegateProxy.shared.application(application, continue: userActivity, restorationHandler: restorationHandler)
-    }
+WechatAttribution.shared().continue(userActivity)
 ```
+
+
+![img](../../../cordova-plugin-wechat-doc-old/docs/images/xcode-3.png)
