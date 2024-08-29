@@ -46,10 +46,10 @@ const config: CapacitorConfig = {
 3、原来的method swizzling在capactiro中无法监听回调，需要通过Bridging Header代码进行调用, 在APP targes 的 “Build Settings"里找到 "Objective-C Bridging Header", 输入
 
 ```
-../../capacitor-cordova-ios-plugins/sources/CordovaPluginWechat/Wechat-Bridging-Header.h
+../capacitor-cordova-ios-plugins/sources/CordovaPluginWechat/Wechat-Bridging-Header.h
 ```
 
-![img](../../../cordova-plugin-wechat-doc-old/docs/images/xcode-2.png)
+![img](/public/images/xcode-2.png)
 
 
 4、修改AppDelegate.swift
@@ -61,4 +61,4 @@ WechatAttribution.shared().continue(userActivity)
 ```
 
 
-![img](../../../cordova-plugin-wechat-doc-old/docs/images/xcode-3.png)
+![img](/public/images/xcode-3.png)
