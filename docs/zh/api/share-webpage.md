@@ -17,16 +17,16 @@
 ## 示例
 
 ```javascript
-window.Wechat.shareWebpage({
-      videoUrl: 'https://byteee.fund',
-  		title: '分享视频',
-  		description: '这是一个视频',
-  		thumbPath: 'www/img/logo.png',
-      scene: 0, 
-  }, function(res){
-    console.log("share success");
-  }, function(err) {
-    console.error(err);
-  }
+ window.Wechat.shareWebpage({
+        webpageUrl: 'https://byteee.fund',
+        title: '分享网页',
+        description: '这是一个网址',
+        thumbPath: 'www/img/logo.png',
+        scene: 0,
+    }, function(res){
+        console.log("share success");
+    }, function(err) {
+        console.error(err);
+    }
 );
 ```

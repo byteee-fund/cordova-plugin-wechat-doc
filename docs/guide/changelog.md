@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.3.0 (2024-10-12)
+
+### BUG
+
+ - Fixed Android share webpage thumb size
+ - Update IOS load remote url image with dispatch
+
 ## 4.2.0 (2024-08-29)
 
 ### BUG
