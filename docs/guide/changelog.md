@@ -5,6 +5,9 @@
 ### BUG
 
  - Fixed Android share webpage thumb size
+
+### Feature
+
  - Update IOS load remote url image with dispatch
 
 ## 4.2.0 (2024-08-29)
